@@ -14,13 +14,8 @@ module.exports = function(grunt) {
         options: {
           // engine: 'im', <-- commented out for Windows (Udacity's instructions)
           sizes: [{
-            /*
-            Change these:
-
-            width: ,
-            suffix: ,
-            quality:
-            */
+            width: 800,
+            quality: 30
           }]
         },
 
