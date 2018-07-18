@@ -1,5 +1,11 @@
 # Responsive Images: Project Part 1 #
 
+### Disclosure ###
+
+Some of this project's dependencies contain security vulnerabilities.
+Running `npm audit fix` will cause breaking changes, and it's not worth it
+because this project is simply my attempt at a course exercise.
+
 ## Your Goals: ##
 
 * Make the images fit in their containers in the viewport.
