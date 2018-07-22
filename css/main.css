@@ -29,6 +29,10 @@ img {
  max-width: 100%;
 }
 
+.social {
+  margin-bottom: 10px;
+  text-align: center;
+}
 .background-markup {
   height: 100px;
   width: 90%;
