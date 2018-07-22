@@ -6,6 +6,18 @@ Some of this project's dependencies contain security vulnerabilities.
 Running `npm audit fix` will cause breaking changes, and it's not worth it
 because this project is simply my attempt at a course exercise.
 
+### Cross-platform testing made possible by [BrowserStack](https://www.browserstack.com) ###
+[![BrowserStack Logo](Browserstack-logo@2x.png)](https://www.browserstack.com)
+
+BrowserStack is _really_ **awesome**. I find it really useful that the mobile
+devices run on the same OS versions from when they shipped. I can therefore
+see how a page looks with the browser features of the time, as opposed to
+checking only viewport characteristics as is often the case with browser
+developer tools.
+I **strongly** encourage you to give BrowserStack a try. (They are _quite_
+generous with open source projects :wink:.)
+
+# Original #
 ## Your Goals: ##
 
 * Make the images fit in their containers in the viewport.
