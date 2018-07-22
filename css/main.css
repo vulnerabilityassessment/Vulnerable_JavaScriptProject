@@ -34,8 +34,8 @@ img {
   text-align: center;
 }
 .background-markup {
-  height: 100px;
-  width: 90%;
+  height: 1px;
+  width: 95%;
   margin: 0 auto 20px auto;
   background:
     linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
