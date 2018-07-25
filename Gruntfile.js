@@ -15,29 +15,34 @@ module.exports = function(grunt) {
           // engine: 'im', <-- commented out for Windows (Udacity's instructions)
           separator: '_',
           sizes: [
+            // NOTE: I used 150 dpi as 1x DPR which works for mobile/tablet
+            // displays. For laptop/desktop displays, the value is around
+            // 72-96 dpi. I focused on mobile displays to enforce a mobile-first
+            // priority and minimize use cases that I had to account for.
+
             // alternate the pairs of directives to create the two image folders
             {
               quality: 60,
               width: 500,
-              density: 160,
+              density: 150,
               name: '1x'
             },
             // {
             //   quality: 60,
             //   width: 800,
-            //   density: 160,
+            //   density: 150,
             //   name: '1x'
             // },
             {
               quality: 60,
               width: 1000,
-              density: 320,
+              density: 300,
               name: '2x'
             },
             // {
             //   quality: 60,
             //   width: 1600,
-            //   density: 320,
+            //   density: 300,
             //   name: '2x'
             // }
           ]
