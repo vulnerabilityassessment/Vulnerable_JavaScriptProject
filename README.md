@@ -7,7 +7,7 @@
 ### Disclosure ###
 
 Some of this project's dependencies contain security vulnerabilities.
-Running `npm audit fix` will cause breaking changes, and it's not worth it
+Running `npm audit fix` will cause breaking changes but it's not worth it
 because this project is simply my attempt at a course exercise.
 
 ### Cross-platform testing made possible by [BrowserStack](https://www.browserstack.com) ###
