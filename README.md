@@ -1,5 +1,9 @@
 # Responsive Images: Project Part 1 #
 
+## Live Demo ##
+* [Click here](https://codewithoz.github.io/TheResponsiveBlog/)
+* Or copy and paste the following URL into your browser: https://codewithoz.github.io/TheResponsiveBlog/
+
 ### Disclosure ###
 
 Some of this project's dependencies contain security vulnerabilities.
