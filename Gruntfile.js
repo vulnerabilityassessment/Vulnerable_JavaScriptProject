@@ -13,10 +13,34 @@ module.exports = function(grunt) {
       dev: {
         options: {
           // engine: 'im', <-- commented out for Windows (Udacity's instructions)
-          sizes: [{
-            width: 800,
-            quality: 35
-          }]
+          separator: '_',
+          sizes: [
+            // alternate the pairs of directives to create the two image folders
+            {
+              quality: 60,
+              width: 500,
+              density: 160,
+              name: '1x'
+            },
+            // {
+            //   quality: 60,
+            //   width: 800,
+            //   density: 160,
+            //   name: '1x'
+            // },
+            {
+              quality: 60,
+              width: 500,
+              density: 320,
+              name: '2x'
+            },
+            // {
+            //   quality: 60,
+            //   width: 800,
+            //   density: 320,
+            //   name: '2x'
+            // }
+          ]
         },
 
         /*
@@ -25,9 +49,11 @@ module.exports = function(grunt) {
         */
         files: [{
           expand: true,
-          src: ['*.{gif,jpg,png}'],
+          // src: ['*_lg.jpg'],
+          src: ['*_sm.jpg'],
           cwd: 'images_src/',
-          dest: 'images/'
+          // dest: 'images_800w/'
+          dest: 'images_500w/'
         }]
       }
     },
@@ -35,7 +61,8 @@ module.exports = function(grunt) {
     /* Clear out the images directory if it exists */
     clean: {
       dev: {
-        src: ['images'],
+        // src: ['images_800w'],
+        src: ['images_500w'],
       },
     },
 
@@ -43,7 +70,8 @@ module.exports = function(grunt) {
     mkdir: {
       dev: {
         options: {
-          create: ['images']
+          // create: ['images_800w']
+          create: ['images_500w']
         },
       },
     }
