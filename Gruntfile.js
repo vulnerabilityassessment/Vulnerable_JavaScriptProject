@@ -30,13 +30,13 @@ module.exports = function(grunt) {
             // },
             {
               quality: 60,
-              width: 500,
+              width: 1000,
               density: 320,
               name: '2x'
             },
             // {
             //   quality: 60,
-            //   width: 800,
+            //   width: 1600,
             //   density: 320,
             //   name: '2x'
             // }
