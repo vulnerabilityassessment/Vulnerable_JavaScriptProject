@@ -16,8 +16,11 @@ module.exports = function(grunt) {
           separator: '_',
           sizes: [
             // NOTE: I used 150 dpi as 1x DPR which works for mobile/tablet
-            // displays. For laptop/desktop displays, the value is around
-            // 72-96 dpi. I focused on mobile displays to enforce a mobile-first
+            // displays. For laptop/desktop displays, the value may be around
+            // 72-96 dpi.
+            // see https://www.html5rocks.com/en/mobile/high-dpi/#toc-bg
+
+            // I focused on mobile displays to enforce a mobile-first
             // priority and minimize use cases that I had to account for.
 
             // alternate the pairs of directives to create the two image folders
