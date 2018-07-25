@@ -52,8 +52,8 @@ module.exports = function(grunt) {
           // src: ['*_lg.jpg'],
           src: ['*_sm.jpg'],
           cwd: 'images_src/',
-          // dest: 'images_800w/'
-          dest: 'images_500w/'
+          // dest: 'images_lg/'
+          dest: 'images_sm/'
         }]
       }
     },
@@ -61,8 +61,8 @@ module.exports = function(grunt) {
     /* Clear out the images directory if it exists */
     clean: {
       dev: {
-        // src: ['images_800w'],
-        src: ['images_500w'],
+        // src: ['images_lg'],
+        src: ['images_sm'],
       },
     },
 
@@ -70,8 +70,8 @@ module.exports = function(grunt) {
     mkdir: {
       dev: {
         options: {
-          // create: ['images_800w']
-          create: ['images_500w']
+          // create: ['images_lg']
+          create: ['images_sm']
         },
       },
     }
