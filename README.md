@@ -21,6 +21,9 @@ developer tools.
 I **strongly** encourage you to give BrowserStack a try. (They are _quite_
 generous with open source projects :wink:.)
 
+### License ###
+MIT
+
 # Original #
 ## Your Goals: ##
 
